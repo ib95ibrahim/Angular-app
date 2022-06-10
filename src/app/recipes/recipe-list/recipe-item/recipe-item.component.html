@@ -1,0 +1,10 @@
+<a class="list-group-item clearfix"  style="cursor: pointer"
+   routerLinkActive="active">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{data.name}}</h4>
+    <p class="list-group-item-text">{{data.description}}</p>
+  </div>
+  <span class="pull-right">
+        <img [src]="data.imagepath" alt="{{data.name}}" class="img-fluid" style="max-height: 70px">
+      </span>
+</a>
